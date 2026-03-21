@@ -155,7 +155,7 @@ fun ProductScreen(controller: ProductoController, onLogout: () -> Unit) {
         }
     }
 
-    // Efecto que se dispara al cargar la pantalla por primera vez
+    // Efecto que se dispara al cargar la pantalla por primera vez.
     LaunchedEffect(Unit) { refreshList() }
 
     Column(modifier = Modifier.padding(16.dp)) {
